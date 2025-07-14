@@ -28,7 +28,7 @@ const HeroLights = () => {
       />
 
       <primitive
-        object={new THREE.RectAreaLight("#A259FF", 8, 3, 2)} //8, 3, 2
+        object={new THREE.RectAreaLight("#A259FF", 8, 8, 2)} //8, 3, 2
         position={[1, 3, 4]} //0, 1, 0
         intensity={15}
         rotation={[-Math.PI / 4, Math.PI / 4, 0]}
