@@ -41,7 +41,7 @@ const Hero = () => {
                   <span className="wrapper">
                     {words.map((word) => (
                       <span
-                        key={word.text}
+                        key={Math.random()}
                         className="flex items-center md:gap-3 gap-1 pb-2"
                       >
                         <img
@@ -63,7 +63,7 @@ const Hero = () => {
             </p>
             <Button
               className="md:w-80 md:h-16 w-60 h-12"
-              id="button"
+              id="counter"
               text="See my Work"
             />
           </div>
