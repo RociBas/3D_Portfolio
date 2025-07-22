@@ -1,7 +1,7 @@
 import React from "react";
 
 const FeatureCards = () => {
-  return <div>FeatureCards</div>;
+  return <div>FeatureCarddssss</div>;
 };
 
 export default FeatureCards;
